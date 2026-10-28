@@ -54,6 +54,10 @@
     margin-right: .5rem;
 }
 
+.information a {
+    color: #fff;
+}
+
 .information .contato::before {
     background-image: url('/assets/icons/contato.svg');
 }

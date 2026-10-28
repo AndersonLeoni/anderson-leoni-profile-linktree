@@ -13,6 +13,16 @@ body {
     color: #fffafa;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #222831;
+    
+}
+
 .main {
     margin: 1rem;
     padding: 1rem;

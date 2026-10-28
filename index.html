@@ -17,11 +17,14 @@
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
 
 </head>
 
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="/assets/img/profile.jpg" alt="foto Anderson Leoni" class="imageProfile">
             <h1 class="title">Olá, <br> eu sou o Anderson Leoni</h1>
@@ -29,7 +32,8 @@
                 <p class="contato">Analista de Sistemas Pl - CVCCorp</p>
                 <p class="local">Santo André - SP</p>
                 <p class="wapp">(11) 9 5902-2282</p>
-                <p class="mail">aleoni27@gmail.com</p>
+                <p class="mail">
+                    <a href="mailto:>aleoni27@gmail.com">aleoni27@gmail.com</a></p>
             </div>
         </header>
 
@@ -38,14 +42,60 @@
                 Idiomas
             </button>
             <div class="content">
-                <ul>
+                <ul class="languages">
                     <li>Português</li>
                     <li>Espanhol</li>
                     <li>Ingles</li>
                 </ul>
             </div>
         </section>
-    </div>
+
+<section class="acordeon open">
+            <button class="trigger" type="button">
+                Portfolio
+            </button>
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <span class="title github">Gerador de Ideias</span>
+                        <a href="https://github.com/AndersonLeoni/gerador_de_ideias" target="_blank">Acesse aqui</a>
+                    </li>
+                                        <li>
+                        <span class="title github">Gerador de Ideias</span>
+                        <a href="https://github.com/AndersonLeoni/gerador_de_ideias" target="_blank">Acesse aqui</a>
+                    </li>
+                                        <li>
+                        <span class="title github">Gerador de Ideias</span>
+                        <a href="https://github.com/AndersonLeoni/gerador_de_ideias" target="_blank">Acesse aqui</a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Experiência Profissional
+            </button>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                       <span class="title">Analista de Sistema Pleno</span>
+                       <span class="period">mai. de 2025 - o momento </span>
+                       <p>
+                        - Investigação e tratamento de incidentes em ambientes produtivos e não produtivos.<br>
+- Análise de logs e consultas em SQL e MongoDB para validação e investigação de dados. <br>
+- Registro, acompanhamento e priorização de incidentes utilizando Jira. <br>
+- Validação funcional de integrações por meio do SOAP UI. <br>
+- Elaboração de documentações técnicas, procedimentos operacionais e materiais de apoio. <br>
+- Interface entre áreas de negócio e equipes de desenvolvimento para reprodução e correção de falhas. 
+                       </p>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
     <script src="/assets/js/acordeon.js"></script>
 </body>
 
