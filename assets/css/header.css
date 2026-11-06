@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center ;
     position: relative;
+    min-height: 270px;
+    padding: 1rem 0 2rem;
 }
 
 .header::after {
@@ -22,11 +24,17 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: 5px solid #fff1b8;
+    box-shadow: 5px 5px 0 #116a8e;
+    object-fit: cover;
 }
 
 .header .title {
     font-family: 'Neue Machina';
     text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 0 #087cae;
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
 }
 
 .information {
@@ -41,7 +49,9 @@
     flex-direction: row;
     align-items: center;
     margin: .5rem;
-    font-size: 1.125rem;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px #087cae;
 }
 
 .information p::before {
@@ -59,22 +69,22 @@
 }
 
 .information .contato::before {
-    background-image: url('/assets/icons/contato.svg');
+    background-image: url('../icons/contato.svg');
 }
 
 
 .information .local::before {
-    background-image: url('/assets/icons/local.svg');
+    background-image: url('../icons/local.svg');
 }
 
 
 .information .mail::before {
-    background-image: url('/assets/icons/mail.svg');
+    background-image: url('../icons/mail.svg');
 }
 
 
 .information .wapp::before {
-    background-image: url('/assets/icons/wapp.svg');
+    background-image: url('../icons/wapp.svg');
 }
 
 @media only screen and (min-width: 768px) {
@@ -99,4 +109,11 @@
     }
 
      
+}
+
+@media (max-width: 767px) {
+    .header { min-height: 450px; padding-top: 1.5rem; }
+    .header .imageProfile { width: 150px; height: 150px; }
+    .information { align-items: center; }
+    .information p { font-size: .9rem; }
 }
