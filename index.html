@@ -1,152 +1,66 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anderson Leoni | Portfólio</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#18b9e8">
+  <meta name="description" content="Links, projetos e trajetória de Anderson Leoni.">
+  <title>Anderson Leoni — explore meu mundo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/global.css">
 </head>
-
 <body>
-    <main class="main">
-        <header class="header">
-            <img src="assets/img/profile.jpg" alt="foto Anderson Leoni" class="imageProfile">
-            <h1 class="title">Olá, <br> eu sou o Anderson Leoni</h1>
-            <div class="information">
-                <p class="contato">Analista de Sistemas Pl - CVCCorp</p>
-                <p class="local">Santo André - SP</p>
-                <p class="wapp">(11) 9 5902-2282</p>
-                <p class="mail">
-                    <a href="mailto:aleoni27@gmail.com">aleoni27@gmail.com</a>
-                </p>
-            </div>
-        </header>
+  <main class="poster">
+    <header class="poster-heading">
+      <p class="eyebrow">UM LINKTREE EM MODO AVENTURA</p>
+      <h1>ANDERSON</h1>
+      <p class="subtitle">LEONI</p>
+      <p class="intro">Oi! Sou analista de sistemas e este é meu cantinho na internet.<br>Escolha um bloco ou veja o personagem encontrar cada parada.</p>
+    </header>
 
-        <div class="adventure-track" aria-label="Personagem caminhando em direção às seções do portfólio">
-            <span class="track-cloud cloud-left" aria-hidden="true"></span>
-            <span class="track-cloud cloud-right" aria-hidden="true"></span>
-            <span class="track-hill" aria-hidden="true"></span>
-            <span class="runner" aria-hidden="true"><i class="runner-head"></i><i class="runner-body"></i><i class="runner-leg leg-one"></i><i class="runner-leg leg-two"></i></span>
-            <span class="track-ground" aria-hidden="true"></span>
-        </div>
+    <section class="world" aria-label="Cenário interativo de Anderson">
+      <img class="landscape" src="assets/img/pixel-world.svg" alt="Montanhas verdes, cidade à beira-mar, blocos pixelados e um cano verde em uma paisagem de videogame.">
+      <div class="stations" aria-label="Explore as seções">
+        <button class="station is-active" type="button" style="--x:12%;--delay:0s" aria-expanded="true" aria-controls="panel-about" data-stage="0"><span class="block"><b>?</b></span><span class="station-label">SOBRE</span></button>
+        <button class="station" type="button" style="--x:36%;--delay:.12s" aria-expanded="false" aria-controls="panel-work" data-stage="1"><span class="block"><b>?</b></span><span class="station-label">PROJETOS</span></button>
+        <button class="station" type="button" style="--x:60%;--delay:.24s" aria-expanded="false" aria-controls="panel-career" data-stage="2"><span class="block"><b>?</b></span><span class="station-label">CARREIRA</span></button>
+        <button class="station" type="button" style="--x:84%;--delay:.36s" aria-expanded="false" aria-controls="panel-skills" data-stage="3"><span class="block"><b>?</b></span><span class="station-label">SKILLS</span></button>
+      </div>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Idiomas</h2>
-            </button>
-            <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Espanhol</li>
-                    <li>Ingles</li>
-                </ul>
-            </div>
-        </section>
+      <div class="runner-track" aria-hidden="true"><span class="runner"><i class="cap"></i><i class="face"></i><i class="torso"></i><i class="arm"></i><i class="leg leg-left"></i><i class="leg leg-right"></i></span></div>
+    </section>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Portfolio</h2>
-            </button>
-            <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">Gerador de Ideias</h3>
-                        <a href="https://github.com/AndersonLeoni/gerador_de_ideias" target="_blank">Acesse aqui</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Gerador de Ideias</h3>
-                        <a href="https://github.com/AndersonLeoni/gerador_de_ideias" target="_blank">Acesse aqui</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Gerador de Ideias</h3>
-                        <a href="https://github.com/AndersonLeoni/gerador_de_ideias" target="_blank">Acesse aqui</a>
-                    </li>
+    <section class="dialog" aria-live="polite" aria-atomic="true">
+        <div class="dialog-tab"><span class="pixel-star">✦</span> PARADA <span class="stage-number">01</span><span class="tab-tail"></span></div>
+        <article class="panel is-active" id="panel-about" data-panel="0">
+          <h2>OI, EU SOU O ANDERSON!</h2>
+          <p>Analista de Sistemas Pl na CVCCorp, em Santo André — SP. Gosto de investigar problemas, entender sistemas e aproximar tecnologia das pessoas.</p>
+          <div class="panel-links"><a href="mailto:aleoni27@gmail.com">ME MANDE UM E-MAIL <span>↗</span></a><a href="https://github.com/AndersonLeoni" target="_blank" rel="noopener noreferrer">MEU GITHUB <span>↗</span></a></div>
+        </article>
+        <article class="panel" id="panel-work" data-panel="1" hidden>
+          <h2>PROJETOS QUE SAÍRAM DO PAPEL</h2>
+          <p>Experimentos e ferramentas que venho construindo.</p>
+          <div class="panel-links"><a href="https://github.com/AndersonLeoni/gerador_de_ideias" target="_blank" rel="noopener noreferrer">GERADOR DE IDEIAS <span>↗</span></a><a href="https://github.com/AndersonLeoni?tab=repositories" target="_blank" rel="noopener noreferrer">VER TODOS OS PROJETOS <span>↗</span></a></div>
+        </article>
+        <article class="panel" id="panel-career" data-panel="2" hidden>
+          <h2>ANALISTA DE SISTEMAS PLENO</h2>
+          <p class="panel-meta">CVCCorp · MAI. 2025 — ATUAL</p>
+          <p>Investigo incidentes, analiso dados com SQL e MongoDB, valido integrações e documento soluções em parceria com as equipes de negócio e desenvolvimento.</p>
+        </article>
+        <article class="panel" id="panel-skills" data-panel="3" hidden>
+          <h2>ITENS DA MINHA MOCHILA</h2>
+          <div class="skills-list"><span>SQL</span><span>MONGODB</span><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>GIT</span><span>JIRA</span><span>SOAP UI</span></div>
+          <p class="panel-meta">PORTUGUÊS · ESPANHOL · INGLÊS</p>
+        </article>
+      </div>
 
-                </ul>
-            </div>
-        </section>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
-            </button>
-            <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title">Analista de Sistema Pleno</h3>
-                        <p class="period">mai. de 2025 - o momento </p>
-                        <p>
-                            - Investigação e tratamento de incidentes em ambientes produtivos e não produtivos.<br>
-                            - Análise de logs e consultas em SQL e MongoDB para validação e investigação de dados. <br>
-                            - Registro, acompanhamento e priorização de incidentes utilizando Jira. <br>
-                            - Validação funcional de integrações por meio do SOAP UI. <br>
-                            - Elaboração de documentações técnicas, procedimentos operacionais e materiais de apoio.
-                            <br>
-                            - Interface entre áreas de negócio e equipes de desenvolvimento para reprodução e correção
-                            de falhas.
-                        </p>
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Skills</h2>
-            </button>
-            <div class="content">
-                <div class="skills">
-                    <section class="tools">
-                        <h3>Habilidades profissionais</h3>
-                        <ul>
-                            <li>
-                                <img src="assets/icons/js.svg" alt="JavaScript" title="JavaScript">
-                            </li>
-                            <li>
-                                <img src="assets/icons/html.svg" alt="HTML" title="HTML">
-                            </li>
-                            <li>
-                                <img src="assets/icons/git.svg" alt="Git" title="Git">
-                            </li>
-                            <li>
-                                <img src="assets/icons/css.svg" alt="CSS" title="CSS">
-                            </li>
-                        </ul>
-                    </section>
-
-                    <section class="personal">
-                        <h3>Habilidades pessoais</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Facilidade de comunicação</li>
-                            <li>Organização</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Flexibilidade</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </section>
-    </main>
-    <script src="assets/js/acordeon.js" defer></script>
+      <div class="avatar-tag"><img src="assets/img/profile.jpg" alt=""><span>ANDERSON LEONI</span><a href="https://instagram.com/anderson.leoni" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Anderson Leoni">INSTAGRAM ↗</a></div>
+      <p class="scroll-hint">TOQUE NOS BLOCOS PARA EXPLORAR <span>↑</span></p>
+    </section>
+    <footer class="poster-footer"><span>FEITO COM CURIOSIDADE EM SANTO ANDRÉ, SP</span><span>© ANDERSON LEONI</span></footer>
+  </main>
+  <script src="assets/js/adventure.js" defer></script>
 </body>
-
 </html>

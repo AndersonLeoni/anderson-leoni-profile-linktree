@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 1000" preserveAspectRatio="xMidYMid slice" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="windows" width="18" height="22" patternUnits="userSpaceOnUse"><rect x="4" y="4" width="7" height="9" fill="#8ae0cf"/><rect x="13" y="4" width="3" height="9" fill="#f6d273"/></pattern>
+    <pattern id="bricks" width="78" height="38" patternUnits="userSpaceOnUse"><rect width="78" height="38" fill="#e45722"/><path d="M0 2H78M0 19H78M38 2V19M19 19V38M59 19V38" fill="none" stroke="#542b22" stroke-width="6"/><path d="M4 5H34M43 5H74M4 24H15M24 24H55M64 24H74" stroke="#ffae37" stroke-width="4"/></pattern>
+    <pattern id="ripples" width="96" height="70" patternUnits="userSpaceOnUse"><path d="M8 16h34m36 30h15M48 61h24" stroke="#7edbe0" stroke-width="4"/><path d="M52 10h12" stroke="#b1eff0" stroke-width="3"/></pattern>
+  </defs>
+  <rect width="736" height="1000" fill="#20b8e4"/>
+  <path d="M0 215h736v8H0zm0 14h736v4H0z" fill="#ffffff" opacity=".13"/>
+  <!-- blocky clouds -->
+  <g fill="#fff6dc" stroke="#a6eff2" stroke-width="5">
+    <path d="M42 155h40v-20h24v-18h42v18h20v20h34v17H42z"/>
+    <path d="M479 157h34v-16h26v-23h38v17h24v22h48v16H479z"/>
+    <path d="M274 281h23v-13h24v-13h32v13h20v13h32v13H274z"/>
+  </g>
+  <!-- distant mountain range -->
+  <path d="M0 578 113 441l58 60 108-194 87 123 66-62 118 206 69-91 117 95v209H0z" fill="#167d62"/>
+  <path d="m250 431 29-124 26 45 28-27-43 171h-69zM471 477l66-173 45 102-31-21-27 109z" fill="#e9d49a"/>
+  <!-- foreground hills -->
+  <path d="M0 620 75 555h55l35-72h51l35-91h73l43 55h41l51-83h63l36 87h38l49 52h60v234H0z" fill="#126e48"/>
+  <path d="m0 609 83-50h44l40-79h42l43-87h66l32 50h35l51-78h56l40 83h43l51 53h70v115H0z" fill="#29a842"/>
+  <path d="m84 560 43-2 40-79h42l43-87h30l-60 122-39 27-28 60H81zM400 499l51-78h56l39 83-32-5-33-40-26 22-30 58h-47z" fill="#75cc36"/>
+  <path d="M0 685h736v121H0z" fill="#178097" opacity=".6"/>
+  <!-- colorful city across the shore -->
+  <g stroke="#254d4c" stroke-width="6">
+    <path fill="#f4a54d" d="M12 648h46v-72h20v-37h31v109h16v-82h25v-38h27v120h19v-94h30v-51h40v145h17v-67h31v-31h24v98h18v-117h41v-47h28v164h22v-92h35v-33h30v125h17v-80h28v-61h38v141h18v-99h32v-36h26v135h18v-81h34v91H12z"/>
+    <path fill="url(#windows)" d="M12 648h46v-72h20v-37h31v109h16v-82h25v-38h27v120h19v-94h30v-51h40v145h17v-67h31v-31h24v98h18v-117h41v-47h28v164h22v-92h35v-33h30v125h17v-80h28v-61h38v141h18v-99h32v-36h26v135h18v-81h34v91H12z"/>
+  </g>
+  <path d="M0 698h736v13H0z" fill="#f4d55c"/>
+  <!-- water -->
+  <rect y="711" width="736" height="245" fill="#169fc4"/>
+  <rect y="711" width="736" height="245" fill="url(#ripples)"/>
+  <path d="M0 735h736M0 947h736" stroke="#64c7d1" stroke-width="7" opacity=".6"/>
+  <!-- brick ledge and green pipe -->
+  <path d="M435 785h187v30H435z" fill="url(#bricks)" stroke="#442a20" stroke-width="7"/>
+  <path d="M618 751h98v48h-98zM632 798h70v159h-70z" fill="#38bd24" stroke="#164b36" stroke-width="9"/>
+  <path d="M633 761h18v28h-18zm0 54h18v128h-18z" fill="#8ae62e"/>
+  <!-- walkway -->
+  <path d="M0 905h736v95H0z" fill="#934a27" stroke="#482a20" stroke-width="8"/>
+  <path d="M0 907h736v26H0z" fill="#42b63d" stroke="#24502d" stroke-width="7"/>
+  <path d="M0 908h736v8H0z" fill="#9be34c"/>
+  <path d="M0 943h736M0 976h736" stroke="#64371f" stroke-width="7"/>
+  <path d="M22 943h38v31H22zm97 0h38v31h-38zm97 0h38v31h-38zm97 0h38v31h-38zm97 0h38v31h-38zm97 0h38v31h-38zm97 0h38v31h-38z" fill="#b56630"/>
+</svg>
